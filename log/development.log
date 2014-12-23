@@ -1858,3 +1858,139 @@ Processing by StaticPagesController#home as HTML
   Rendered layouts/_header.html.erb (0.4ms)
   Rendered layouts/_footer.html.erb (0.3ms)
 Completed 200 OK in 165ms (Views: 162.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 107.184.58.182 at 2014-12-23 20:59:52 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (8.0ms)
+Warning. Error encountered while saving cache 91e7a7b071c4f0ff0a36637c7690af7832778cbe/users.css.scssc: can't dump anonymous class #<Class:0x000000030ba3f8>
+
+  Rendered layouts/_shim.html.erb (0.6ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 5248ms (Views: 5233.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-8553f84e0201bd47ec5999dd5d596a9a.css?body=1" for 107.184.58.182 at 2014-12-23 20:59:58 +0000
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 107.184.58.182 at 2014-12-23 20:59:58 +0000
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 107.184.58.182 at 2014-12-23 20:59:58 +0000
+
+
+Started GET "/assets/jquery_ujs-29277b946c1d3754af13672bfec0c660.js?body=1" for 107.184.58.182 at 2014-12-23 20:59:58 +0000
+
+
+Started GET "/assets/static_pages-069e88c06b889877799890854d7f4c40.css?body=1" for 107.184.58.182 at 2014-12-23 20:59:58 +0000
+
+
+Started GET "/assets/application-a39af06e11ff9b0d276ace279f03777c.css?body=1" for 107.184.58.182 at 2014-12-23 20:59:58 +0000
+
+
+Started GET "/assets/turbolinks-3a7cdb8630f3e86770867bd488a098e0.js?body=1" for 107.184.58.182 at 2014-12-23 20:59:58 +0000
+
+
+Started GET "/assets/static_pages-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 107.184.58.182 at 2014-12-23 20:59:58 +0000
+
+
+Started GET "/assets/rails-15ff13e9c3486ddd78bc91be8063523d.png" for 107.184.58.182 at 2014-12-23 20:59:58 +0000
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 107.184.58.182 at 2014-12-23 20:59:58 +0000
+
+
+Started GET "/assets/application-f654761ee6a5c52b970be60a1e79500a.js?body=1" for 107.184.58.182 at 2014-12-23 20:59:58 +0000
+
+
+Started GET "/" for 99.117.49.189 at 2014-12-23 21:00:10 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 157ms (Views: 156.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-8553f84e0201bd47ec5999dd5d596a9a.css?body=1" for 99.117.49.189 at 2014-12-23 21:00:11 +0000
+
+
+Started GET "/assets/static_pages-069e88c06b889877799890854d7f4c40.css?body=1" for 99.117.49.189 at 2014-12-23 21:00:11 +0000
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 99.117.49.189 at 2014-12-23 21:00:12 +0000
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 99.117.49.189 at 2014-12-23 21:00:12 +0000
+
+
+Started GET "/assets/turbolinks-3a7cdb8630f3e86770867bd488a098e0.js?body=1" for 99.117.49.189 at 2014-12-23 21:00:12 +0000
+
+
+Started GET "/assets/application-a39af06e11ff9b0d276ace279f03777c.css?body=1" for 99.117.49.189 at 2014-12-23 21:00:12 +0000
+
+
+Started GET "/assets/jquery_ujs-29277b946c1d3754af13672bfec0c660.js?body=1" for 99.117.49.189 at 2014-12-23 21:00:12 +0000
+
+
+Started GET "/assets/static_pages-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 99.117.49.189 at 2014-12-23 21:00:12 +0000
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 99.117.49.189 at 2014-12-23 21:00:12 +0000
+
+
+Started GET "/assets/application-f654761ee6a5c52b970be60a1e79500a.js?body=1" for 99.117.49.189 at 2014-12-23 21:00:13 +0000
+
+
+Started GET "/assets/rails-15ff13e9c3486ddd78bc91be8063523d.png" for 99.117.49.189 at 2014-12-23 21:00:13 +0000
+  [1m[36m (22.3ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (11.5ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateUsers (20141223210145)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "email" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20141223210145"]]
+  [1m[35m (15.4ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (0.9ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.7ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.4ms)[0m  [1mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Nick Ma"], ["email", "nicholashma@gmail.com"], ["created_at", "2014-12-23 21:05:22.147560"], ["updated_at", "2014-12-23 21:05:22.147560"]]
+  [1m[35m (0.4ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (85.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddIndexToUsersEmail (20141223212423)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (202.1ms)[0m  CREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20141223212423"]]
+  [1m[35m (18.9ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddPasswordDigestToUsers (20141223212858)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.6ms)[0m  [1mALTER TABLE "users" ADD "password_digest" varchar[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20141223212858"]]
+  [1m[36m (12.3ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
