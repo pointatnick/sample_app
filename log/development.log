@@ -1,0 +1,137 @@
+
+
+Started GET "/" for 107.184.58.182 at 2014-12-23 07:09:46 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/railties-4.2.0.rc3/lib/rails/templates/rails/welcome/index.html.erb (6.0ms)
+Completed 200 OK in 246ms (Views: 231.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/home" for 107.184.58.182 at 2014-12-23 07:12:52 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+Warning. Error encountered while saving cache 91e7a7b071c4f0ff0a36637c7690af7832778cbe/static_pages.css.scssc: can't dump anonymous class #<Class:0x00000002677710>
+
+Completed 200 OK in 813ms (Views: 811.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages-069e88c06b889877799890854d7f4c40.css?body=1" for 107.184.58.182 at 2014-12-23 07:12:53 +0000
+
+
+Started GET "/assets/static_pages-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 107.184.58.182 at 2014-12-23 07:12:53 +0000
+
+
+Started GET "/assets/application-823e88bf1231c4323ee1d35731d8f1b6.css?body=1" for 107.184.58.182 at 2014-12-23 07:12:53 +0000
+
+
+Started GET "/static_pages/home" for 107.184.58.182 at 2014-12-23 07:17:48 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 72ms (Views: 70.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-823e88bf1231c4323ee1d35731d8f1b6.css?body=1" for 107.184.58.182 at 2014-12-23 07:17:49 +0000
+
+
+Started GET "/assets/static_pages-069e88c06b889877799890854d7f4c40.css?body=1" for 107.184.58.182 at 2014-12-23 07:17:49 +0000
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 107.184.58.182 at 2014-12-23 07:17:49 +0000
+
+
+Started GET "/assets/application-ef54359dffd3a68f0fcb465e2914a11b.js?body=1" for 107.184.58.182 at 2014-12-23 07:17:49 +0000
+
+
+Started GET "/assets/jquery_ujs-29277b946c1d3754af13672bfec0c660.js?body=1" for 107.184.58.182 at 2014-12-23 07:17:49 +0000
+
+
+Started GET "/assets/turbolinks-3a7cdb8630f3e86770867bd488a098e0.js?body=1" for 107.184.58.182 at 2014-12-23 07:17:49 +0000
+
+
+Started GET "/assets/static_pages-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 107.184.58.182 at 2014-12-23 07:17:49 +0000
+
+
+Started GET "/static_pages/help" for 107.184.58.182 at 2014-12-23 07:17:58 +0000
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 117ms (Views: 116.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 107.184.58.182 at 2014-12-23 07:17:59 +0000
+
+
+Started GET "/assets/static_pages-069e88c06b889877799890854d7f4c40.css?body=1" for 107.184.58.182 at 2014-12-23 07:17:59 +0000
+
+
+Started GET "/assets/jquery_ujs-29277b946c1d3754af13672bfec0c660.js?body=1" for 107.184.58.182 at 2014-12-23 07:17:59 +0000
+
+
+Started GET "/assets/static_pages-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 107.184.58.182 at 2014-12-23 07:17:59 +0000
+
+
+Started GET "/assets/application-823e88bf1231c4323ee1d35731d8f1b6.css?body=1" for 107.184.58.182 at 2014-12-23 07:17:59 +0000
+
+
+Started GET "/assets/turbolinks-3a7cdb8630f3e86770867bd488a098e0.js?body=1" for 107.184.58.182 at 2014-12-23 07:17:59 +0000
+
+
+Started GET "/assets/application-ef54359dffd3a68f0fcb465e2914a11b.js?body=1" for 107.184.58.182 at 2014-12-23 07:17:59 +0000
+
+
+Started GET "/static_pages/about" for 107.184.58.182 at 2014-12-23 07:29:38 +0000
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (79.3ms)
+Completed 200 OK in 2717ms (Views: 2439.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/help" for 107.184.58.182 at 2014-12-23 07:30:20 +0000
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 1007ms (Views: 995.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages-069e88c06b889877799890854d7f4c40.css?body=1" for 107.184.58.182 at 2014-12-23 07:30:21 +0000
+
+
+Started GET "/assets/jquery_ujs-29277b946c1d3754af13672bfec0c660.js?body=1" for 107.184.58.182 at 2014-12-23 07:30:22 +0000
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 107.184.58.182 at 2014-12-23 07:30:22 +0000
+
+
+Started GET "/assets/turbolinks-3a7cdb8630f3e86770867bd488a098e0.js?body=1" for 107.184.58.182 at 2014-12-23 07:30:22 +0000
+
+
+Started GET "/assets/static_pages-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 107.184.58.182 at 2014-12-23 07:30:22 +0000
+
+
+Started GET "/assets/application-ef54359dffd3a68f0fcb465e2914a11b.js?body=1" for 107.184.58.182 at 2014-12-23 07:30:22 +0000
+
+
+Started GET "/assets/application-823e88bf1231c4323ee1d35731d8f1b6.css?body=1" for 107.184.58.182 at 2014-12-23 07:30:22 +0000
+
+
+Started GET "/static_pages/about" for 107.184.58.182 at 2014-12-23 07:30:28 +0000
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 574ms (Views: 568.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-823e88bf1231c4323ee1d35731d8f1b6.css?body=1" for 107.184.58.182 at 2014-12-23 07:30:29 +0000
+
+
+Started GET "/assets/jquery_ujs-29277b946c1d3754af13672bfec0c660.js?body=1" for 107.184.58.182 at 2014-12-23 07:30:29 +0000
+
+
+Started GET "/assets/static_pages-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 107.184.58.182 at 2014-12-23 07:30:29 +0000
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 107.184.58.182 at 2014-12-23 07:30:30 +0000
+
+
+Started GET "/assets/static_pages-069e88c06b889877799890854d7f4c40.css?body=1" for 107.184.58.182 at 2014-12-23 07:30:30 +0000
+
+
+Started GET "/assets/turbolinks-3a7cdb8630f3e86770867bd488a098e0.js?body=1" for 107.184.58.182 at 2014-12-23 07:30:33 +0000
+
+
+Started GET "/assets/application-ef54359dffd3a68f0fcb465e2914a11b.js?body=1" for 107.184.58.182 at 2014-12-23 07:30:33 +0000
