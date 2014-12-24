@@ -702,3 +702,4 @@ Completed 200 OK in 6ms (Views: 6.2ms | ActiveRecord: 0.0ms)
   [1m[35m (11.3ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20141223212423')
   [1m[36m (12.3ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20141223210145')[0m
   [1m[36mActiveRecord::SchemaMigration Load (3.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
